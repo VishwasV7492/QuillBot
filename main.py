@@ -13,7 +13,8 @@ __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
-
+def logout():
+    authenticator._implement_logout()
 #---- user authentication -------
 hashed_passwords = stauth.Hasher(['au1234', 'au12345','au123456']).generate()
 with open (Path(__file__).parent/"config.yaml") as file:
