@@ -1,0 +1,21 @@
+credentials:
+  usernames:
+    Vishwas:
+      email: 20eg105411@anurag.edu.in
+      name: Vishwas
+      password: au1234 # To be replaced with hashed password
+    Chaitanya:
+      email: 20eg105437@anurag.edu.in
+      name: Chaitanya
+      password: au12345 # To be replaced with hashed password
+    Abhinav:
+      email: 20eg105426@anurag.edu.in
+      name: Abhhinav
+      password: au123456
+cookie:
+  expiry_days: 30
+  key: Vishwas # Must be string
+  name: Quillbot
+preauthorized:
+  emails:
+  - melsby@gmail.com
